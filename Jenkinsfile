@@ -4,7 +4,7 @@ pipeline {
     environment {
         DOCKER_IMAGE = 'manjukolkar007/test-dev:latest'
         DEPLOY_FILE  = 'deploy.yaml'
-        DOMAIN       = 'scrollweb.duckdns.org'
+        DOMAIN       = 'micro123.duckdns.org'
     }
 
     stages {
@@ -114,3 +114,4 @@ pipeline {
         }
     }
 }
+
