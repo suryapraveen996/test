@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: devops-app-c5
-        image: manjukolkar007/test-dev:latest
+        image: surya111/test-dev:latest
         ports:
         - containerPort: 80
 ---
@@ -39,7 +39,7 @@ metadata:
 spec:
   ingressClassName: nginx
   rules:
-  - host: micro123.duckdns.org
+  - host: surya123.duckdns.org
     http:
       paths:
       - path: /
@@ -49,4 +49,5 @@ spec:
             name: devops-service
             port:
               number: 80
+
 
